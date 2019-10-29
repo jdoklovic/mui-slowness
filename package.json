@@ -1,0 +1,50 @@
+{
+  "name": "mui-slowness",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./src --ext .js,.jsx,.ts,.tsx",
+    "compile": "webpack --config webpack.react.webview.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@material-ui/core": "^4.5.2",
+    "@material-ui/icons": "^4.5.1",
+    "@material-ui/styles": "^4.5.2",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  },
+  "devDependencies": {
+    "@types/html-webpack-plugin": "^3.2.1",
+    "@types/mini-css-extract-plugin": "^0.8.0",
+    "@types/react": "^16.9.11",
+    "@types/react-dom": "^16.9.3",
+    "@types/webpack": "^4.39.5",
+    "@types/webpack-manifest-plugin": "^2.1.0",
+    "@typescript-eslint/eslint-plugin": "^2.6.0",
+    "@typescript-eslint/parser": "^2.6.0",
+    "cross-env": "^6.0.3",
+    "css-loader": "^3.2.0",
+    "eslint": "^6.6.0",
+    "eslint-import-resolver-typescript": "^2.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^2.2.0",
+    "fork-ts-checker-webpack-plugin": "^3.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "source-map-loader": "^0.2.4",
+    "ts-loader": "^6.2.1",
+    "ts-node": "^8.4.1",
+    "tsconfig-paths": "^3.9.0",
+    "tsconfig-paths-webpack-plugin": "^3.2.0",
+    "typescript": "^3.6.4",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.9.0",
+    "webpack-manifest-plugin": "^2.2.0"
+  }
+}
